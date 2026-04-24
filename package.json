@@ -1,0 +1,11 @@
+{
+  "name": "cypress-node-smoke",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "cy:run": "cypress run --spec cypress/e2e/smoke-public.cy.js"
+  },
+  "devDependencies": {
+    "cypress": "12.2.0"
+  }
+}
