@@ -1,8 +1,9 @@
-const { defineConfig } = require('cypress');
+const { defineConfig } = require("cypress");
 
 module.exports = defineConfig({
   e2e: {
-    specPattern: 'cypress/e2e/**/*.cy.{js,ts}'
+    specPattern: "cypress/e2e/**/*.cy.{js,ts}",
+    supportFile: false,
   },
-  video: false
+  video: false,
 });
